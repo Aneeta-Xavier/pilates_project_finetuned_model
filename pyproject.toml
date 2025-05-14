@@ -9,6 +9,7 @@ dependencies = [
     "langchain>=0.3.25",
     "langchain-community>=0.3.24",
     "langchain-openai>=0.3.16",
+    "langchain-core>=0.0.1",  # Added langchain-core
     "pymupdf>=1.25.5",
     "pytube>=15.0.0",
     "unstructured>=0.17.2",
@@ -18,4 +19,4 @@ dependencies = [
 
 [build-system]
 requires = ["setuptools", "wheel"]
-build-backend = "setuptools.build_meta" 
+build-backend = "setuptools.build_meta"
