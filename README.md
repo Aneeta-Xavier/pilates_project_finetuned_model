@@ -8,7 +8,7 @@ app_file: app.py
 pinned: false
 license: mit
 short_description: Tool to provide users reformer exercises
-
+startup_duration_timeout: 1h
 ---
 
 # Pilates Reformer RAG App Fine_Tuned
@@ -23,3 +23,4 @@ uv run chainlit run app.py
 
 ## Or Deploy to Hugging Face Space with Docker
 Just upload this directory and you're done.
+
